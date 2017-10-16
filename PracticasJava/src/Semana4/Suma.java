@@ -22,6 +22,8 @@ public class Suma {
         
         System.out.println(x1);
         System.out.println(x2);
+        
+        
        
     }
 }
