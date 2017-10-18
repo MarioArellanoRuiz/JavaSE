@@ -5,8 +5,10 @@ import java.util.Scanner;
 
 public class Burbuja {
     public static void main(String[] args) {
-        
-        Scanner lector = new Scanner(System.in);
+
+    }
+ public void ordenarArray(){
+           Scanner lector = new Scanner(System.in);
         String option = lector.nextLine();
         System.out.println(option);
         
@@ -28,7 +30,5 @@ public class Burbuja {
         for (int i : array) {
             System.out.println(i);
         }
-        
-    }
- 
+ }
 }
