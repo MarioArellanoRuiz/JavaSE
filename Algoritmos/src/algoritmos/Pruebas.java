@@ -10,11 +10,11 @@ public class Pruebas {
     
     public static void main(String[] args) {
     //Calcular la distancia de entre dos puntos de forma no lineal    
-    double x1=1;
+    double x1=.4;
     double y1=1;
     
-    double x2=9.5;
-    double y2=6.5;
+    double x2=.9;
+    double y2=3;
     
     //double a=x2;
     //double b=y1;

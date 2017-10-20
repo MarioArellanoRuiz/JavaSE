@@ -9,20 +9,34 @@ package algoritmos;
  */
 public class Euclides {
     
-    public int[] maximoComunDivisor(int a, int b){
+    public static int maximoComunDivisor(int a, int b){
         int[] arr;
         
         int max= Math.max(a, b);
         int min=Math.min(a, b);
-        int res=0;
-        int mcd;
+        
+       
+        int residuo;
+        int dividendo=max;
+        int divisor=min;
+        
         do{
             
-            mcd=max/min;
+            residuo=dividendo%divisor;
+            dividendo=divisor;
+            divisor=residuo;
             
-        }while(res!=0);
+        }while(residuo!=0);
         
-        return null;
-    }    
+         int mcd=dividendo;
+        
+        return mcd;
+    } 
+    
+    public static void main(String[] args) {
+        System.out.println(maximoComunDivisor(5, 10));
+        System.out.println((40*4)/maximoComunDivisor(5, 10));
+        
+    }
     
 }
