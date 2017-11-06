@@ -31,4 +31,16 @@ public class CalculadoraDeCadenas {
         
         
     }
+    public Integer addString2(String cadena){
+        
+        String [] arreglo = cadena.split(",");
+        int n=0;
+        for (String arreglo1 : arreglo) {
+            if (arreglo1.matches("[0-4]")) {
+                n += Integer.parseInt(arreglo1);
+            }else 
+                return 0;
+        }
+        return n;
+    }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Banana_GEST">
+    <!-- Data source -->
+    <Resource name="jdbc/Connection" auth="Container"
+        type="javax.sql.DataSource" username="root" password="root"
+        DriverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/sakila"
+        maxActive="10"  MaxIdle="4"/>              
+</Context>

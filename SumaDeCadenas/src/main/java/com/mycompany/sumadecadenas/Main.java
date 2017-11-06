@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         CalculadoraDeCadenas calculadora = new CalculadoraDeCadenas();
         
-        System.out.println(calculadora.addString("4;4"));
+        System.out.println(calculadora.addString2("x,4"));
         
     }
 }

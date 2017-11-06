@@ -43,7 +43,7 @@ public class CalculadoraDeCadenasTest {
     @Test
     public void testAddString() {
         System.out.println("addString");
-        String cadena = "44";
+        String cadena = "x,4";
         CalculadoraDeCadenas instance = new CalculadoraDeCadenas();
         Integer expResult = 8;
         Integer result = instance.addString(cadena);
